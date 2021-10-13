@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Mate+SC&family=Montserrat:wght@300&family=Viaoda+Libre&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  background-color: rgb(250, 248, 248);
+  height: 100%;
+}
+.upload__box {
+  position: sticky;
+  bottom: 0;
+  z-index: 1;
+  text-align: center;
+  background-color: rgb(216, 216, 216, 0.9);
+}
+
+@media (min-width: 333px) and (max-width: 500px) {
+  .popUp {
+    width: 95% !important;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 775px) {
+  .popUp {
+    width: 75% !important;
+  }
+}
+@media (max-width: 332px) {
+  .popUp {
+    width: 95% !important;
+  }
+}

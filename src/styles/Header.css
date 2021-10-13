@@ -1,0 +1,18 @@
+.header__logo {
+  object-fit: contain;
+  width: 130px;
+}
+.header {
+  padding: 10px;
+  background-color: white;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.header__btn:focus {
+  outline: none;
+}
